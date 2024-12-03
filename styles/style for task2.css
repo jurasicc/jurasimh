@@ -1,0 +1,22 @@
+table{
+    border-spacing: 0;
+    width: 400px;
+    height: 400px;
+}
+
+tr:first-child,
+tr:last-child {
+    height: 20px;
+    background-color: aquamarine;
+}
+
+td:first-child,
+td:last-child {
+    width: 20px;
+    background-color: aquamarine;
+}
+
+tr:nth-child(even) td:nth-child(2n+3){background-color: black;}
+tr:nth-child(2n+3) td:nth-child(2n){background-color: black;}
+tr:nth-child(9) td:nth-child(n), tr:nth-child(2n+3) td:nth-child(9)
+{background-color: aquamarine;}
