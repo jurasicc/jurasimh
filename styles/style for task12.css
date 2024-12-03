@@ -1,0 +1,55 @@
+p{
+    margin: 0;
+    padding: 0;
+
+.wrap{
+    possition: relative;
+    width:90%
+    height: 300px
+    margin: 0 auto;
+    min-widht: 500px;
+    backgraund-color:black;
+    font-family: Arial,sans-serif;
+
+}
+.content{
+    position:absolute;
+    width:100%;
+    display: inline-block;
+    margin:1% auto;
+}
+
+.h1{
+text-transform: uppercase;
+color:slateblue;
+/*text-align:center;*/
+font: size 230%;
+}
+.h10range{
+    color:chocolate
+}
+.row{
+    display: block;
+    widht:100%
+}
+.card{
+    display: inline-block;
+    box-sizing:border-box;
+    width: 49%;
+    min-width: 475px;
+    max-width: 475px;
+    padding: 0 10px;
+}
+.avatar{
+    width: 80px;
+    height:80px;
+    float: left;
+}
+.content::before{
+    content: "";
+    di
+}
+
+
+
+
