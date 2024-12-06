@@ -1,0 +1,48 @@
+body{
+    margin: 0 auto;
+}
+
+
+.img{
+    display: flex;
+
+}
+
+.img1{
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: justify center;
+padding-left: 320px;
+ 
+}
+
+.img2{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: justify center;
+    padding-left: 320px;
+    padding-right: 320px;
+}
+
+.img3{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: justify center;
+padding-right: 320px;
+}
+
+h3{
+    color: blue;
+    text-align: center;
+}
+
+p{
+    color: grey;
+    opacity: 10;
+    text-align: center;
+    width: 200px;
+    
+}
